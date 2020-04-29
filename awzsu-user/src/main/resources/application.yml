@@ -1,0 +1,25 @@
+server:
+  port: 19007
+spring:
+  application:
+    name: awzsu-user
+  datasource:
+    url: jdbc:mysql://192.168.25.90:3306/awzsu_user?characterEncoding=UTF8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 192.168.25.90
+  rabbitmq:
+    host: 192.168.25.90
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.25.90:19100/eureka
+  instance:
+    prefer-ip-address: true
+jwt:
+  config:
+    key: awzsu

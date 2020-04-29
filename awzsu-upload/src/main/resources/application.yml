@@ -1,0 +1,19 @@
+server:
+  port: 19005
+spring:
+  application:
+    name: awzsu-upload
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.25.90:19100/eureka
+  instance:
+    prefer-ip-address: true
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image:
+    width: 60
+    height: 60
+  tracker-list:
+    - 192.168.25.133:22122

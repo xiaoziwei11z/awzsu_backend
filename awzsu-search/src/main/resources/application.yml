@@ -1,0 +1,16 @@
+server:
+  port: 19011
+spring:
+  application:
+    name: awzsu-search
+  rabbitmq:
+      host: 192.168.25.90
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.25.90:9300
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.25.90:19100/eureka
+  instance:
+    prefer-ip-address: true

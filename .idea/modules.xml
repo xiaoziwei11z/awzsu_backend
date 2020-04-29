@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/awzsu.iml" filepath="$PROJECT_DIR$/awzsu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-activity/awzsu-activity.iml" filepath="$PROJECT_DIR$/awzsu-activity/awzsu-activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-activity-crawler/awzsu-activity-crawler.iml" filepath="$PROJECT_DIR$/awzsu-activity-crawler/awzsu-activity-crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-article/awzsu-article.iml" filepath="$PROJECT_DIR$/awzsu-article/awzsu-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-article-crawler/awzsu-article-crawler.iml" filepath="$PROJECT_DIR$/awzsu-article-crawler/awzsu-article-crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-common/awzsu-common.iml" filepath="$PROJECT_DIR$/awzsu-common/awzsu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-gateway/awzsu-gateway.iml" filepath="$PROJECT_DIR$/awzsu-gateway/awzsu-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-label/awzsu-label.iml" filepath="$PROJECT_DIR$/awzsu-label/awzsu-label.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-qa/awzsu-qa.iml" filepath="$PROJECT_DIR$/awzsu-qa/awzsu-qa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-registry/awzsu-registry.iml" filepath="$PROJECT_DIR$/awzsu-registry/awzsu-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-search/awzsu-search.iml" filepath="$PROJECT_DIR$/awzsu-search/awzsu-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-sms/awzsu-sms.iml" filepath="$PROJECT_DIR$/awzsu-sms/awzsu-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-square/awzsu-square.iml" filepath="$PROJECT_DIR$/awzsu-square/awzsu-square.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-upload/awzsu-upload.iml" filepath="$PROJECT_DIR$/awzsu-upload/awzsu-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awzsu-user/awzsu-user.iml" filepath="$PROJECT_DIR$/awzsu-user/awzsu-user.iml" />
+    </modules>
+  </component>
+</project>

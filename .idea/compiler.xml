@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="awzsu-activity" />
+        <module name="awzsu-activity-crawler" />
+        <module name="awzsu-article" />
+        <module name="awzsu-article-crawler" />
+        <module name="awzsu-common" />
+        <module name="awzsu-gateway" />
+        <module name="awzsu-label" />
+        <module name="awzsu-qa" />
+        <module name="awzsu-registry" />
+        <module name="awzsu-search" />
+        <module name="awzsu-sms" />
+        <module name="awzsu-square" />
+        <module name="awzsu-upload" />
+        <module name="awzsu-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="awzsu" target="1.8" />
+      <module name="awzsu-activity" target="1.8" />
+      <module name="awzsu-activity-crawler" target="1.8" />
+      <module name="awzsu-article" target="1.8" />
+      <module name="awzsu-article-crawler" target="1.8" />
+      <module name="awzsu-common" target="1.8" />
+      <module name="awzsu-gateway" target="1.8" />
+      <module name="awzsu-label" target="1.8" />
+      <module name="awzsu-qa" target="1.8" />
+      <module name="awzsu-registry" target="1.8" />
+      <module name="awzsu-search" target="1.8" />
+      <module name="awzsu-sms" target="1.8" />
+      <module name="awzsu-square" target="1.8" />
+      <module name="awzsu-upload" target="1.8" />
+      <module name="awzsu-user" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

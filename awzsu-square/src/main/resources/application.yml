@@ -1,0 +1,20 @@
+server:
+  port: 19009
+spring:
+  application:
+    name: awzsu-square
+  data:
+    mongodb:
+      host: 192.168.25.90
+      database: awzsu_square
+  redis:
+    host: 192.168.25.90
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.25.90:19100/eureka
+  instance:
+    prefer-ip-address: true
+jwt:
+  config:
+    key: awzsu

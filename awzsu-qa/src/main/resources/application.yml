@@ -1,0 +1,21 @@
+server:
+  port: 19010
+spring:
+  application:
+    name: awzsu-qa
+  datasource:
+    url: jdbc:mysql://192.168.25.90:3306/awzsu_qa?characterEncoding=UTF8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.25.90:19100/eureka
+  instance:
+    prefer-ip-address: true
+jwt:
+  config:
+    key: awzsu

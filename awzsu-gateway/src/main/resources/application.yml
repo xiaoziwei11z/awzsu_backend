@@ -1,0 +1,39 @@
+server:
+  port: 19101
+spring:
+  application:
+    name: awzsu-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.25.90:19100/eureka/
+  instance:
+    prefer-ip-address: true
+jwt:
+  config:
+    key: awzsu
+ribbon:
+  # 请求处理超时时间
+  ReadTimeout: 60000
+  SocketTimeout: 60000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # 断路器超时时间
+            timeoutInMilliseconds: 60000
+zuul:
+  prefix: /api
+  sensitive-headers:
+  ignored-services:
+    - awzsu-upload
+  routes:
+    awzsu-article: /article/**
+    awzsu-label: /label/**
+    awzsu-activity: /activity/**
+    awzsu-user: /user/**
+    awzsu-square: /square/**
+    awzsu-qa: /qa/**
+    awzsu-search: /search/**

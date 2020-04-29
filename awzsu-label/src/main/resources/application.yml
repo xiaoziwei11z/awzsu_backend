@@ -1,0 +1,23 @@
+server:
+  port: 19001
+spring:
+  application:
+    name: awzsu-label
+  datasource:
+    url: jdbc:mysql://192.168.25.90:3306/awzsu_label?characterEncoding=UTF8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 192.168.25.90
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.25.90:19100/eureka
+  instance:
+    prefer-ip-address: true
+jwt:
+  config:
+    key: awzsu
