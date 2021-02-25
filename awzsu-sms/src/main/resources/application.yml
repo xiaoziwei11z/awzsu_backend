@@ -7,7 +7,7 @@ spring:
     host: 192.168.25.90
 aliyun:
   sms:
-    accessKeyId: LTAI4FxmuDiZC72uZPeJD6mo
-    accessKeySecret: RILbHfpDiozxye7Goqu16bnv9CBw27
-    sign_name: 一直看社交平台
-    template_code: SMS_184630626
+    accessKeyId: **************
+    accessKeySecret: **************
+    sign_name: **************
+    template_code: **************
